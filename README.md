@@ -1,6 +1,7 @@
 # 🚗 VAE-Based OOD Detection for Autonomous Driving
 
-![CARLA Simulation](https://upload.wikimedia.org/wikipedia/commons/3/36/CARLA_Simulator.png)  
+https://github.com/carla-simulator/carla
+---
 *A deep learning approach to Out-of-Distribution (OOD) detection in self-driving systems using multi-modal sensor data.*
 
 ---
@@ -12,9 +13,10 @@ This project leverages a **Variational Autoencoder (VAE)** to detect **Out-of-Di
 
 ## 📂 Project Structure
 
-OOD_Detection 
+---
 
-📁 scripts 
+📁 Scripts 
+---
   collect_data.py # Collects multi-modal sensor data from CARLA 
 
   preprocess_images.py # Converts and normalizes camera images into .npy format 
@@ -31,7 +33,8 @@ OOD_Detection
 
   missing_data.py # Identifies missing samples in each level 
 
-📁 preprocessed 
+📁 Preprocessed 
+---
 
  📁 camera_npy/ # Preprocessed camera images in .npy format 
 
@@ -43,7 +46,8 @@ OOD_Detection
 
  combined_data.npy # Final multi-modal dataset for training 
 
-📁 models 
+📁 Models 
+---
 vae_model.pth # Trained VAE model 
 
   README.md
