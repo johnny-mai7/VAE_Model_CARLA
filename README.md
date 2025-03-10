@@ -12,7 +12,7 @@ This project leverages a **Variational Autoencoder (VAE)** to detect **Out-of-Di
 
 ## 📂 Project Structure
 
-📦 OOD_Detection 
+OOD_Detection 
 
 📁 scripts 
   collect_data.py # Collects multi-modal sensor data from CARLA 
@@ -32,6 +32,7 @@ This project leverages a **Variational Autoencoder (VAE)** to detect **Out-of-Di
   missing_data.py # Identifies missing samples in each level 
 
 📁 preprocessed 
+
  📁 camera_npy/ # Preprocessed camera images in .npy format 
 
  📁 lidar/ # Processed LiDAR data
