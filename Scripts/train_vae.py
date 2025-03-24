@@ -7,7 +7,7 @@ from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
 
 # Load combined dataset
-DATASET_PATH = "C:/carla_env/fgcu-carla/scripts/preprocessed/combined/fixed_combined_data.npy"
+DATASET_PATH = "C:/carla_env/fgcu-carla/scripts/preprocessed/combined/standardized_data.npy"
 OUTPUT_PATH = "C:/carla_env/fgcu-carla/scripts/models"
 
 # Ensure output directory exists
